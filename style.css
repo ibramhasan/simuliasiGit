@@ -1,0 +1,91 @@
+/*Googlefont*/
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow: hidden;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom,
+            #07a4b5, #c9Eff9);
+    --light-gray: rgba(255, 255, 255, 0)
+}
+
+
+/* Header */
+
+header a {
+    font-family:
+        var(--Rubika);
+    font-size: 0, 9em;
+    color: whitesmoke;
+}
+
+header {
+    background: #07a4b5;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: #fed8a7;
+    transition: 0.3s;
+}
+
+button .navbar-toggler .collapse {
+    z-index: 1;
+}
+
+header i:hover {
+    color: black;
+}
+
+header .navbar-brand:hover {
+    color: #fed8a7;
+    transition: 0.3s;
+}
